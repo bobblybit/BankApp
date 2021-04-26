@@ -1,0 +1,9 @@
+C:\Users\hp\Desktop\AxisBank\AxisBank.lib.Model\bin\Debug\netcoreapp3.1\AxisBank.lib.Models.deps.json
+C:\Users\hp\Desktop\AxisBank\AxisBank.lib.Model\bin\Debug\netcoreapp3.1\AxisBank.lib.Models.dll
+C:\Users\hp\Desktop\AxisBank\AxisBank.lib.Model\bin\Debug\netcoreapp3.1\AxisBank.lib.Models.pdb
+C:\Users\hp\Desktop\AxisBank\AxisBank.lib.Model\obj\Debug\netcoreapp3.1\AxisBank.lib.Models.csprojAssemblyReference.cache
+C:\Users\hp\Desktop\AxisBank\AxisBank.lib.Model\obj\Debug\netcoreapp3.1\AxisBank.lib.Models.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\AxisBank\AxisBank.lib.Model\obj\Debug\netcoreapp3.1\AxisBank.lib.Models.AssemblyInfo.cs
+C:\Users\hp\Desktop\AxisBank\AxisBank.lib.Model\obj\Debug\netcoreapp3.1\AxisBank.lib.Models.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\AxisBank\AxisBank.lib.Model\obj\Debug\netcoreapp3.1\AxisBank.lib.Models.dll
+C:\Users\hp\Desktop\AxisBank\AxisBank.lib.Model\obj\Debug\netcoreapp3.1\AxisBank.lib.Models.pdb

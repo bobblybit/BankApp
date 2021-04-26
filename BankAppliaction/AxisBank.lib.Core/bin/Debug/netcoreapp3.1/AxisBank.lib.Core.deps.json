@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AxisBank.lib.Core/1.0.0": {
+        "dependencies": {
+          "AxisBank.lib.Common": "1.0.0",
+          "AxisBank.lib.Model": "1.0.0"
+        },
+        "runtime": {
+          "AxisBank.lib.Core.dll": {}
+        }
+      },
+      "AxisBank.lib.Common/1.0.0": {
+        "runtime": {
+          "AxisBank.lib.Common.dll": {}
+        }
+      },
+      "AxisBank.lib.Model/1.0.0": {
+        "runtime": {
+          "AxisBank.lib.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AxisBank.lib.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AxisBank.lib.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AxisBank.lib.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

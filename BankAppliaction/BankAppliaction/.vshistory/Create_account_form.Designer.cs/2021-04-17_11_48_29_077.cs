@@ -1,0 +1,163 @@
+﻿
+namespace BankAppliaction
+{
+    partial class create_login_Form
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(create_login_Form));
+            this.button1 = new System.Windows.Forms.Button();
+            this.login_email_txt = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.email_lbl = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.create_login_lbl = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.back_to_homeicon_txt = new System.Windows.Forms.LinkLabel();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(44)))), ((int)(((byte)(93)))));
+            this.button1.Font = new System.Drawing.Font("Perpetua Titling MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.Color.White;
+            this.button1.Location = new System.Drawing.Point(94, 396);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(515, 67);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "LOGIN";
+            this.button1.UseVisualStyleBackColor = false;
+            // 
+            // login_email_txt
+            // 
+            this.login_email_txt.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.login_email_txt.Font = new System.Drawing.Font("SimSun", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.login_email_txt.Location = new System.Drawing.Point(96, 327);
+            this.login_email_txt.Name = "login_email_txt";
+            this.login_email_txt.Size = new System.Drawing.Size(513, 49);
+            this.login_email_txt.TabIndex = 4;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.textBox1.Font = new System.Drawing.Font("SimSun", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point);
+            this.textBox1.Location = new System.Drawing.Point(96, 234);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(513, 49);
+            this.textBox1.TabIndex = 5;
+            // 
+            // email_lbl
+            // 
+            this.email_lbl.AutoSize = true;
+            this.email_lbl.Font = new System.Drawing.Font("Perpetua Titling MT", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.email_lbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(44)))), ((int)(((byte)(93)))));
+            this.email_lbl.Location = new System.Drawing.Point(94, 208);
+            this.email_lbl.Name = "email_lbl";
+            this.email_lbl.Size = new System.Drawing.Size(134, 20);
+            this.email_lbl.TabIndex = 6;
+            this.email_lbl.Text = "Enter e-mail:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Perpetua Titling MT", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(44)))), ((int)(((byte)(93)))));
+            this.label1.Location = new System.Drawing.Point(96, 304);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(138, 20);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Set Password";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // create_login_lbl
+            // 
+            this.create_login_lbl.AutoSize = true;
+            this.create_login_lbl.Font = new System.Drawing.Font("Perpetua Titling MT", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.create_login_lbl.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(44)))), ((int)(((byte)(93)))));
+            this.create_login_lbl.Location = new System.Drawing.Point(170, 133);
+            this.create_login_lbl.Name = "create_login_lbl";
+            this.create_login_lbl.Size = new System.Drawing.Size(343, 27);
+            this.create_login_lbl.TabIndex = 8;
+            this.create_login_lbl.Text = "SET UP USER LOGIN DETAILS";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(269, 21);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(150, 75);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
+            // 
+            // back_to_homeicon_txt
+            // 
+            this.back_to_homeicon_txt.AutoSize = true;
+            this.back_to_homeicon_txt.Font = new System.Drawing.Font("Perpetua Titling MT", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.back_to_homeicon_txt.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(173)))), ((int)(((byte)(44)))), ((int)(((byte)(93)))));
+            this.back_to_homeicon_txt.Location = new System.Drawing.Point(269, 493);
+            this.back_to_homeicon_txt.Name = "back_to_homeicon_txt";
+            this.back_to_homeicon_txt.Size = new System.Drawing.Size(166, 23);
+            this.back_to_homeicon_txt.TabIndex = 10;
+            this.back_to_homeicon_txt.TabStop = true;
+            this.back_to_homeicon_txt.Text = "Back To Home";
+            // 
+            // create_login_Form
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(697, 580);
+            this.Controls.Add(this.back_to_homeicon_txt);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.create_login_lbl);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.email_lbl);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.login_email_txt);
+            this.Controls.Add(this.button1);
+            this.Name = "create_login_Form";
+            this.Text = "Create Login";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox login_email_txt;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label email_lbl;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label create_login_lbl;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.LinkLabel back_to_homeicon_txt;
+    }
+}

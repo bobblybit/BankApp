@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AxisBank.lib.Common/1.0.0": {
+        "runtime": {
+          "AxisBank.lib.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AxisBank.lib.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

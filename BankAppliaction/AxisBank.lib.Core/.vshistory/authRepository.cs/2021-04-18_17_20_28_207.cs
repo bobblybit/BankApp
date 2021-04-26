@@ -1,0 +1,64 @@
+﻿using System;
+using System.Text;
+using System.Text.RegularExpressions;
+namespace AxisBank.lib.Core
+{
+    public class authRepository
+    {
+        /// <summary>
+        /// This method registers a new user
+        /// </summary>
+        public static string registerUser(string email, string password)
+        {
+           string message = checkEmpty(email , password);
+            if (message != "OK")
+            {
+                return message;
+            }
+
+            if (validateEmail(email))
+            {
+                return message = "The E-mail is Invalid Please Use A Valid E-mail";
+            }
+
+
+            return message;
+        }
+
+        public static string checkEmpty(string email, string passowrd)
+        {
+            if (!String.IsNullOrEmpty(email))
+            {
+                if (!String.IsNullOrEmpty(passowrd))
+                {
+                    return "OK";
+                }
+                else
+                {
+                    return "The Password Field Is Empty Check And Try Again";
+                }
+            }
+            else
+            {
+                return "The Email Field Is Empty Check And Try Again";
+            }
+        }
+
+        public static bool validateEmail(string email)
+        {
+            string emailPattern = @"\A(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)\Z";
+            Regex reg = new Regex(emailPattern);
+            if (reg.IsMatch(email))
+            {
+                return (true);
+            }
+            else
+            {
+                return (false);
+            }
+
+        }
+
+
+    }
+}

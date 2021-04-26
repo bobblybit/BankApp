@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AxisBank.lib.Common\AxisBank.lib.Common.csproj" />
+    <ProjectReference Include="..\AxisBank.lib.Model\AxisBank.lib.Model.csproj" />
+  </ItemGroup>
+
+</Project>
